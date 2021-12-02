@@ -71,7 +71,7 @@ The **Domain** layer will contain our **core business rules** (entity) and **app
 
 Our **entities** must be simple objects, that may or not have validation rules for its data through functions or ValueObjects. **The entity must not depend on any object of the other layers.**
 
-The **usecases** must run the necessary logic to solve a specific problem. If the **usecase** needs the any external access, this access may be done through interface contacts that will be implemented by the lower-level layers.
+The **usecases** must run the necessary logic to solve a specific problem. If the **usecase** needs any external access, this access may be done through interface contacts that will be implemented by the lower-level layers.
 
 The **Domain** must be responsible only for the execution of the business rules. It must not have any other object implementations, like repositories or services.
 
