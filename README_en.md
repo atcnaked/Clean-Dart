@@ -119,7 +119,7 @@ Developing in a "clean" way is completely related with **TDD** (Test-Driven Deve
 
 ## Spent your time dealing with possible errors
 
-**It's better to let a Exception be thrown than to handle it in a generic way...**
+**It's better to let an Exception be thrown than to handle it in a generic way...**
 A good tip is to use some handling-enforcing approach, like the `Either` class from `dartz` library.
 
 The `Either` class may receive two distinct data, a `Left` one, representing an error, and a `Right` one, representing the actual expected result. This reduces a lot the need to manually handle the exceptions with **try-catch**, which is error-prone, in higher layers.
